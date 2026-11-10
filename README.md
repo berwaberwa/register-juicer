@@ -43,6 +43,10 @@ Local import supports a single-protocol JSON or an explicit flat CSV/XLSX table.
 
 Offline use never requires an update. Startup checks are non-blocking, and updates require confirmation. Settings and local data are retained.
 
+1.8.0 是首个带更新入口的版本。1.7.0 及更早版本需要先手动下载一次，并使用新版程序入口。
+
+Version 1.8.0 is the first version with the updater. Older versions require one manual download and switching to the new executable.
+
 开发验证使用离线模拟和本机模拟器，未进行现场设备验证。
 
 Development validation uses offline mocks and a local simulator; field-device validation has not been performed.
