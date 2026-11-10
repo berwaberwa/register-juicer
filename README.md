@@ -6,7 +6,7 @@ A read-only Windows Modbus TCP tool for batch reading and protocol point interpr
 
 ## 下载 / Download
 
-从 [Releases](https://github.com/berwaberwa/register-juicer/releases) 下载最新的 `Register Juicer x.y.z.exe`，放在自己有写入权限的文件夹运行。
+从 [Releases](https://github.com/berwaberwa/register-juicer/releases) 下载最新的 `Register.Juicer.x.y.z.exe`，放在自己有写入权限的文件夹运行。
 
 Download the latest executable from Releases and keep it in a writable folder.
 
@@ -43,9 +43,9 @@ Local import supports a single-protocol JSON or an explicit flat CSV/XLSX table.
 
 Offline use never requires an update. Startup checks are non-blocking, and updates require confirmation. Settings and local data are retained.
 
-1.8.0 是首个带更新入口的版本。1.7.0 及更早版本需要先手动下载一次，并使用新版程序入口。
+请使用 1.8.1 或更新版本。1.8.0 的 GitHub 附件名匹配存在问题；1.8.0 及更早版本需手动下载 1.8.1 一次，并使用新版程序入口。
 
-Version 1.8.0 is the first version with the updater. Older versions require one manual download and switching to the new executable.
+Use version 1.8.1 or later. Version 1.8.0 had a GitHub asset-name matching issue; users on 1.8.0 or earlier need one manual download of 1.8.1 and must switch to the new executable.
 
 开发验证使用离线模拟和本机模拟器，未进行现场设备验证。
 
